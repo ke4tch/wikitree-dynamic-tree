@@ -21,7 +21,7 @@ import { BioCheckPerson } from "./BioCheckPerson.js";
 import { Biography } from "./Biography.js";
 
   // initialization - just once
-  let bioCheckTemplateManager = new BioCheckTemplateManager();
+  let bioCheckTemplateManager = new BioCheckTemplateManager(appId);
   bioCheckTemplateManager.load();
 
   // For each person. Get the bio text and dates to test
