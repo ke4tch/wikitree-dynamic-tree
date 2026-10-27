@@ -55,8 +55,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
         "fandoku": new FandokuView(),
         "fractal": new FractalView(),
         "ahnentafel": new AhnentafelView(),
+        "genealogyReport": new GenealogyReportView(),
         "surnames": new SurnamesView(),
+        "namecloud": new NameCloudView(),
         "webs": new WebsView(),
+        "ccwebs": new CCWebsView(),
         "familygroup": new FamilyView(),
         "printer-friendly": new PrinterFriendlyView(WikiTreeAPI, 6),
         "calendar": new CalendarView(),
@@ -76,6 +79,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         "heritage": new HeritageView(),
         "timelineTree": new TimelineTreeView(),
         "research": new ResearchView(),
+        "lineageMatrix": new LineageMatrixView(),
     };
 
     for (let key in views) {
